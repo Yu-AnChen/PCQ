@@ -4,18 +4,19 @@ nav_order: 1
 toc: true
 ---
 
-# HTA CRC Atlas 1
+# Temporal and spatial topography of cell proliferation in cancer
 
-The HTA CRC Atlas 1 dataset contains images and other data being used for
-construction of an atlas of human colorectal cancer under the auspices of the
-[Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
-cancers are complex assemblies of tumor, immune, and stromal cells that invade
-adjacent tissue and spread to distant sites. We use highly multiplexed tissue
-imaging, spatial statistics, and machine learning to identify cell types and
-states underlying morphological features of known diagnostic and prognostic
-significance in colorectal cancer. This includes the tumor invasive margin,
-where tumor, normal, and immune cells compete and were diverse immunosuppressive
-environments are found.
+This dataset contextualizes the complex mixtures of cell types and populations
+comprising proliferative, non-proliferative and arrested states found within
+tumors. Images of single or small sets of protein markers from fixed tissue
+samples only provide limited and static views into the nature of these complex
+states. We therefore designed a multivariate quantitative framework for
+characterizing cellular proliferation and cell cycle dynamics in tissue
+sections. The following data are highly multiplexed fluorescent images from
+breast cancer as full tissue and tissue microarrays (TMAs), as well as
+colorectal carcinoma, mesothelioma, and glioblastoma TMAs; they present known
+cell type, proliferation, arrest, cell cycle, and quiescence markers to
+illustrate the temporal and spatial intricacy of the tumor landscape.
 
 ## Contents
 * [Data Overviews](#data-overviews)
@@ -56,6 +57,7 @@ full-resolution images.**
     | last
     | replace: '-he-overview.html', ' – H&E'
     | replace: '-overview.html', ' – cycif'
+    | replace: '.html', ''
     | upcase
 %}
 <figure class="figure-story">
@@ -100,9 +102,9 @@ full-resolution images.**
 
 
 ## About Minerva
-### Exploring the primary image data in Lin-Wang-Sorger et al.
+### Exploring the primary image data in Gaglia et al.
 
-The images in Lin et al. (2021) comprise a ~4.5 TB dataset with some images as
+The images in Gaglia et al. (2021) comprise a ~XXX TB dataset with some images as
 large as 1 gigapixel.  We provide access to this information without restriction
 (as required by the NCI Moonshot effort) but it is not in a convenient form for
 reviewers or general users to explore. The open source Minerva software was
